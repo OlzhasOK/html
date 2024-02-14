@@ -127,7 +127,7 @@ header {
 
 .additional-text-2 
 {
-    width: 90px;
+    width: 95px;
     height: 29px;
     position: relative;
     top: 400px;
@@ -144,22 +144,32 @@ header {
     width: 150px;
     height: 43px;
     position: relative;
-    top: 375px;
+    top: -155px;
     left: 287px;
     font-family: 'Larsseit', sans-serif;
     font-size: 16px;
     line-height: 23px;
     letter-spacing: 0.1em;
     text-align: left;
-    background: #FAB63E;
     padding: 10px 15px;
     border: none;
     border-radius: 8px;
-    color: #fff;
+    color: #E09425;
     text-decoration: none;
 }
 
 .new-button:hover {
     background: #E09425;
     transition: 0.3s;
+}
+
+
+.custom-photo {
+    width: 807.71px;
+    height: 544.93px;
+    position: relative;
+    top: -335px;
+    left: 555px;
+    border-radius: 312.16px;
+    transform: rotate(120deg); /* Поворот на -120 градусов */
 }
